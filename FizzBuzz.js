@@ -7,6 +7,8 @@ for (let i = 1; i <= 50; i++) {
     console.log("Fizz");
   } else if (i % 10 === 0) {
     console.log("FizzBuzz FizzBuzz");
+  } else if (i % 30 === 0) {
+    console.log("FizzFizz BuzzBuzz");
   } else {
     console.log(i);
   }
